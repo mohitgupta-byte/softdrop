@@ -34,7 +34,7 @@ h3 {
 
 .navbar-style {
   background-color: #f8f9fa;
-  box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.04);
+  box-shadow: 2px 4px 13px 1px rgb(255, 255, 255);
 }
 
 #logo {
@@ -44,7 +44,7 @@ h3 {
   letter-spacing: 1px;
   text-transform: capitalize;
   color: rgb(1, 95, 83);
-  text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+  text-shadow: 2px 5px 3px rgb(255, 255, 255);
   padding: 0;
 }
 
@@ -343,10 +343,17 @@ label {
   background-attachment: fixed;
 }
 .image2 {
-	background-image:url(../images/market2.gif);
+	background-image:url(../images/drop2.gif);
 	height:100%;
-    width: 100%;
-  position:relative;
+  width: 100%;
+  position:sticky;
+  background-attachment: fixed;
+}
+.image3 {
+	background-image:url(../images/twodot.gif);
+	height:100%;
+  width: 100%;
+  position:sticky;
   background-attachment: fixed;
 }
 
@@ -366,7 +373,16 @@ label {
 }
 .text2{
 
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+	color: rgb(1, 136, 118);
+	font-size: 40px;
+	text-align: center;
+}
+
+.text3{
+
+  padding-top: 50px;
   padding-bottom: 50px;
 	color: rgb(1, 136, 118);
 	font-size: 40px;
