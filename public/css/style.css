@@ -8,6 +8,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  
 }
 
 li,
@@ -34,7 +35,7 @@ h3 {
 
 .navbar-style {
   background-color: #f8f9fa;
-  box-shadow: 2px 4px 13px 1px rgb(255, 255, 255);
+ 
 }
 
 #logo {
@@ -43,13 +44,13 @@ h3 {
   font-size: 3.5rem;
   letter-spacing: 1px;
   text-transform: capitalize;
-  color: rgb(1, 95, 83);
-  text-shadow: 2px 5px 3px rgb(255, 255, 255);
+  color: rgb(221, 220, 220);
+  /* text-shadow: 2px 5px 3px rgb(255, 255, 255); */
   padding: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgb(1, 95, 83);
+  color: rgb(221, 220, 220);
   text-transform: capitalize;
   letter-spacing: 0.1rem;
   padding-left: 1rem;
@@ -57,7 +58,7 @@ h3 {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #fd5c63;
+  color: rgb(221, 220, 220);
 }
 
 /* our hero sections  */
@@ -121,7 +122,7 @@ label {
 .service-style .main-heading,
 .contact-style .main-heading {
   font-size: 5rem;
-  color: rgb(1, 95, 83);
+  color:rgb(221, 220, 220);
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -132,7 +133,7 @@ label {
   font-size: 3rem;
   letter-spacing: 3px;
   line-height: 2;
-  color: rgb(1, 95, 83);
+  color: rgb(221, 220, 220);
   font-weight: 500;
 }
 
@@ -156,7 +157,7 @@ label {
   min-height: 198px;
   text-align: center;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: rgb(122,122,122);
   transition: all 0.4s ease-in-out;
   box-shadow: 0 0 25px 0 #141bca2b;
 }
@@ -174,7 +175,7 @@ label {
 
 .our-services:hover h4,
 .our-services:hover p {
-  color: rgb(1, 95, 83);
+  color: rgb(204, 199, 199);
 }
 
 .speedup:hover {
@@ -243,7 +244,7 @@ label {
 /* footer sections ends  */
 .footer-basic {
   padding:40px 0;
-  background-color:#ffffff;
+  background-color:rgb(122,122,122);
   color:#4b4c4d;
 }
 
@@ -336,38 +337,50 @@ label {
 */
 
 .image {
-	background-image:url(../images/drop.gif);
-	height:100%;
-    width: 100%;
+	background-image:url(../images/broun.gif);
+	height:120%;
+  width:100%;
   position:relative;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .image2 {
-	background-image:url(../images/rain.gif);
+	background-image:url(../images/black\ circle.gif);
 	height:100%;
   width: 100%;
-  position:sticky;
+  position:relative;
   background-attachment: fixed;
+
 }
 .image3 {
-	background-image:url(../images/twodot.gif);
+	background-image:url(../images/twodot2.gif);
 	height:100%;
   width: 100%;
-  position:sticky;
+  position:relative;
   background-attachment: fixed;
+  
 }
 
 .header {
 	padding-top: 180px;
-	color: rgb(1, 136, 118);
+	color: rgb(221, 220, 220);
 	font-size: 60px;
 	text-align: center;
 }
+.header2 {
+	padding-top: 180px;
+	color: rgb(221, 220, 220);
+	font-size: 60px;
+	text-align: center;
+}
+
 .text{
 
   padding-top: 180px;
   padding-bottom: 100px;
-	color: rgb(1, 136, 118);
+	color: rgb(221, 220, 220);
 	font-size: 30px;
 	text-align: center;
 }
@@ -375,7 +388,7 @@ label {
 
   padding-top: 50px;
   padding-bottom: 50px;
-	color: rgb(1, 136, 118);
+	color: rgb(221, 220, 220);
 	font-size: 40px;
 	text-align: center;
 }
@@ -384,7 +397,7 @@ label {
 
   padding-top: 50px;
   padding-bottom: 50px;
-	color: rgb(1, 136, 118);
+	color: rgb(221, 220, 220);
 	font-size: 40px;
 	text-align: center;
 }
@@ -394,7 +407,7 @@ label {
 label {
   font-size: 2rem;
   letter-spacing: 0.2rem;
-  color: rgb(5, 92, 56);
+  color: rgb(221, 220, 220);
   text-transform: capitalize;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -407,7 +420,7 @@ label {
   line-height: 1;
   text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
   letter-spacing: 0.5px;
-  color: rgb(5, 92, 56);
+  color: rgb(221, 220, 220);
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -417,12 +430,12 @@ label {
   padding: 12px 25px;
   border: none;
   margin-top: 4%;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
   border: 2px solid #fff;
-  background: rgb(5, 92, 56);
+  background: rgb(221, 220, 220);
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
@@ -430,3 +443,9 @@ label {
   transition: 0.5s all;
 }
 
+.container-fluid1 {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(122,122,122);
+  
+}

@@ -13,19 +13,21 @@
     <title>SoftDrop | Boost Your Business Online</title>
 </head>
 
-<body>
-    {{>navbar}}
+<body style="background-color:rgb(122,122,122);">
+   
 
 
-   <header>
+   <header class="col-md-12 col-md-offset">
       <div class="image" >
-	     <p class="header" > WATING will do NOTHING for you </p>
-         <p class="header" > </p>
-         <p class="text" >  </p>
+          {{>navbar}}
+	     <p class="header" > WATING WILL DO NOTHING FOR YOU </p>
+         <p class="header" > NEITHER THINKING   </p>
+         <p class="text" > </p>
+         
        </div>
    </header> 
 
-
+ 
 
 
    
@@ -36,8 +38,8 @@
     
       
  <div class="image2" >
-	     <p class="header" > BUILD SOMETHING WITH ENDURING VALUE </p>
-          <p class="header" > BECAUSE LIFE IS... </p>
+	     <p class="header2" > BUILD SOMETHING WITH ENDURING VALUE </p>
+          <p class="header2" > BECAUSE LIFE IS... </p>
          <p class="text2" > SHORT </p>
     </div>
      
@@ -47,21 +49,21 @@
     {{!--google map--}}
    
  <div class="image3" >
-	     <p class="header" > WHAT YOU DO, WILL CHANGE WHAT YOU'LL </p>
-          <p class="header" > THINK </p>
+	     <p class="header2" > WHAT YOU DO, WILL CHANGE WHAT YOU'LL </p>
+          <p class="header2" > THINK </p>
          <p class="text3" > - Charlie Munger </p>
     </div>
     
     {{!--contact us--}}
     {{>contact}}
 
-     {{>maps}}
+     
 
      <form action="/Newsleter" method="POST">
   <div class="form-group">
     <label for="emailsub">email newsleter</label>
     <input type="email" class="form-control" id="exampleInputnName1" placeholder="email"
-     name="email">
+     name="email" style="background-color:rgb(122,122,122)" >
     </div>
     <button type="submit" class="btn ">Submit</button>
     </form>
